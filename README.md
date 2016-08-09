@@ -6,6 +6,7 @@ Changelog:
 -EXP rates have been pumped up.
 -High Caliber Sniper Rifle has been cleaned up, should shoot and give less problems.
 -LocationFeeder is a standalone file, for easier updates to filter out fake coords, etc.
+P.S. MassEXP will now snipe quite a few Pokemon whenever it can, happy botting with just 1 config :)
 
 Enjoy :)
 
