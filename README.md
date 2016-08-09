@@ -1,6 +1,6 @@
 # DrZ-Configs
 DrZ's Configs to be used on Necrobot.
-Currently updated for: Necrobot v0.7.7.
+Currently updated for: Necrobot v0.7.8.
 
 Please read the in-line documentation on all the configs.json to avoid any mistakes/errors.
 If you are using the packages, please also read the Instructions to setup each.
