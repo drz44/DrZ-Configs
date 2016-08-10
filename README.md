@@ -1,12 +1,15 @@
 # DrZ-Configs
 DrZ's Configs to be used on Necrobot.
-Currently updated for: Necrobot v0.8.0.
+Currently updated for: Necrobot v0.8.2.
 
 Changelog:
--EXP rates have been pumped up.
--High Caliber Sniper Rifle has been cleaned up, should shoot and give less problems.
--LocationFeeder is a standalone file, for easier updates to filter out fake coords, etc.
-P.S. MassEXP will now snipe quite a few Pokemon whenever it can, happy botting with just 1 config :)
+-EXP rates have been pumped up even more from 0.8.0.
+-High Caliber Sniper Rifle has been cleaned up, should shoot and give less problems + increased base EXP rate!
+-LocationFeeder is a standalone file, for easier updates to filter out fake coords, etc. It has been added to full package too.
+(They run my own discord_channels.json config)
+P.S. MassEXP will now snipe quite a few Pokemon whenever it can, happy botting with just 1 config :) (Sniper does this too now!)
+
+BACKWARDS COMPATIBLE WITH 0.8.1 IF YOU ARE EXPERIENCING ISSUES!
 
 Enjoy :)
 
