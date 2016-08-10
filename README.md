@@ -1,6 +1,7 @@
 # DrZ-Configs
 DrZ's Configs to be used on Necrobot.
-Currently updated for: Necrobot v0.8.2.
+Currently updated for: Necrobot v0.8.3.
+If you have issues, I left the v0.8.2 package and MassEXP 0.8.1.
 
 Changelog:
 -EXP rates have been pumped up even more from 0.8.0.
