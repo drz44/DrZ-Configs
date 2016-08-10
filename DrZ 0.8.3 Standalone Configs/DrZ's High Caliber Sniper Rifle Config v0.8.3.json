@@ -1,0 +1,323 @@
+{/*
+						                     DRZ'S HIGH CALIBER SNIPER 0.8.3
+											 -TO USE WITH POGOLOCATIONFEEDER-
+						                              -READ BELOW-
+
+@Credits to PogoLocationFeeder
+
+---[WARNING: THIS CONFIG WILL TRANSFER DUPLICATE POKEMON ACCORDING TO THE SETTINGS YOU CHANGE ON TIPS]---
+
+Search for TIP (Using CRTL+F)
+
+Modify the KeepMinCP value to whatever CP you want to keep. (The value and higher.)
+
+"KeepMinDuplicatePokemon" to 0. This will transfer all Pokemon below the MinCP and MinIV threshold you chose.
+
+Any questions/help at PokeCoords Discord server.
+~DrZ#3244
+
+Want to buy me some tequila? pokemartservices@gmail.com
+Want to support buy buying one of my accounts? http://pogomart.xyz
+
+*/
+  "TranslationLanguageCode": "en",
+  "AutoUpdate": false,
+  "TransferConfigAndAuthOnUpdate": true,
+  "UseWebsocket": false,
+  "WebSocketPort": 14251,
+  "StartupWelcomeDelay": false,
+  "UseTelegramAPI": false,
+  "TelegramAPIKey": null,
+  "AmountOfPokemonToDisplayOnStart": 10,
+  "DetailedCountsBeforeRecycling": false,
+  "MaxBerriesToUsePerPokemon": 3,
+  "CatchPokemon": true,
+  "AutomaticallyLevelUpPokemon": false,
+  "OnlyUpgradeFavorites": true,
+  "UseLevelUpList": true,
+  "AmountOfTimesToUpgradeLoop": 5,
+  "GetMinStarDustForLevelUp": 5000,
+  "LevelUpByCPorIv": "iv",
+  "UpgradePokemonCpMinimum": 1000.0,
+  "UpgradePokemonIvMinimum": 95.0,
+  "UpgradePokemonMinimumStatsOperator": "and",
+  "DisableHumanWalking": true,
+  "DefaultLatitude": 40.779014,
+  "DefaultLongitude": -73.968447,
+  "WalkingSpeedInKilometerPerHour": 50.0,
+  "MaxSpawnLocationOffset": 10,
+  "FastSoftBanBypass": false,
+  "DelayBetweenPlayerActions": 1000,
+  "DelayBetweenPokemonCatch": 300,
+  "DumpPokemonStats": true,
+  "EvolveAboveIvValue": 10.0,
+  "EvolveAllPokemonAboveIv": false,
+  "EvolveAllPokemonWithEnoughCandy": true,
+  "EvolveKeptPokemonsAtStorageUsagePercentage": 50.0,
+  "KeepPokemonsThatCanEvolve": true,
+  "KeepMinCp": 1250,   /*TIP: CHANGE THIS TO WHAT CP YOU WANT TO KEEP AND HIGHER*/
+  "KeepMinIvPercentage": 95.0,   /*TIP: CHANGE THIS TO WHAT IV YOU WANT TO KEEP AND HIGHER*/
+  "KeepMinLvl": 6,
+  "KeepMinOperator": "or", /*TIP: CHANGE THIS TO AND IF YOU WANT TO KEEP POKEMON ONLY WITH SPECIFIC CP AND IV.*/
+  "UseKeepMinLvl": false,
+  "PrioritizeIvOverCp": false,   /*TIP: CHANGE THIS IF YOU WANT TO PRIORITIZE IV OVER CP*/
+  "KeepMinDuplicatePokemon": 1,   /*TIP: IF YOU CHANGE TO 0 THEN POKEMONS BELOW THRESHOLD WILL BE TRANSFERRED*/
+  "UseGpxPathing": false,
+  "GpxFile": "GPXPath.GPX",
+  "VerboseRecycling": true,
+  "RecycleInventoryAtUsagePercentage": 90.0,
+  "RandomizeRecycle": false,
+  "RandomRecycleValue": 5,
+  "DelayBetweenRecycleActions": false,
+  "UseEggIncubators": true,
+  "UseLuckyEggConstantly": false,
+  "UseLuckyEggsMinPokemonAmount": 30,
+  "UseLuckyEggsWhileEvolving": true,
+  "UseIncenseConstantly": false,
+  "UseBerriesMinCp": 1000,
+  "UseBerriesMinIv": 90.0,
+  "UseBerriesBelowCatchProbability": 0.2,
+  "UseBerriesOperator": "and",
+  "UseSnipeLocationServer": true,
+  "SnipeLocationServer": "localhost",
+  "SnipeLocationServerPort": 16969,
+  "GetSniperInfoFromPokezz": true,
+  "GetOnlyVerifiedSniperInfoFromPokezz": true,
+  "GetSniperInfoFromPokeSnipers": true,
+  "GetSniperInfoFromPokeWatchers": true,
+  "SnipeWithSkiplagged": true,
+  "MinPokeballsToSnipe": 50,
+  "MinPokeballsWhileSnipe": 0,
+  "MinDelayBetweenSnipes": 6000,
+  "SnipingScanOffset": 0.013,
+  "SnipeAtPokestops": true,
+  "SnipeIgnoreUnknownIv": false,
+  "UseTransferIvForSnipe": false,
+  "SnipePokemonNotInPokedex": false,
+  "RenamePokemon": false,
+  "RenameOnlyAboveIv": true,
+  "RenameTemplate": "{1}_{0}",
+  "MaxPokeballsPerPokemon": 6,
+  "MaxTravelDistanceInMeters": 3000,
+  "TotalAmountOfPokeballsToKeep": 120,
+  "TotalAmountOfPotionsToKeep": 80,
+  "TotalAmountOfRevivesToKeep": 60,
+  "TotalAmountOfBerriesToKeep": 50,
+  "UseGreatBallAboveCp": 750,
+  "UseUltraBallAboveCp": 1000,
+  "UseMasterBallAboveCp": 1500,
+  "UseGreatBallAboveIv": 80.0,
+  "UseUltraBallAboveIv": 90.0,
+  "UseGreatBallBelowCatchProbability": 0.5,
+  "UseUltraBallBelowCatchProbability": 0.4,
+  "UseMasterBallBelowCatchProbability": 0.05,
+  "EnableHumanizedThrows": false,
+  "NiceThrowChance": 40,
+  "GreatThrowChance": 30,
+  "ExcellentThrowChance": 10,
+  "CurveThrowChance": 90,
+  "ForceGreatThrowOverIv": 90.0,
+  "ForceExcellentThrowOverIv": 95.0,
+  "ForceGreatThrowOverCp": 1000,
+  "ForceExcellentThrowOverCp": 1500,
+  "TransferWeakPokemon": false,
+  "TransferDuplicatePokemon": true,
+  "TransferDuplicatePokemonOnCapture": true,
+  "FavoriteMinIvPercentage": 95.0,
+  "AutoFavoritePokemon": false,
+  "UsePokemonToNotCatchFilter": false,
+  "UsePokemonSniperFilterOnly": false,
+  "ItemRecycleFilter": [
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemRazzBerry",
+      "Value": 50
+    },
+    {
+      "Key": "itemBlukBerry",
+      "Value": 10
+    },
+    {
+      "Key": "itemNanabBerry",
+      "Value": 10
+    },
+    {
+      "Key": "itemWeparBerry",
+      "Value": 30
+    },
+    {
+      "Key": "itemPinapBerry",
+      "Value": 30
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    }
+  ],
+  "PokemonsNotToTransfer": [
+    "ditto",
+    "articuno",
+    "zapdos",
+    "moltres",
+    "mewtwo",
+    "mew"
+  ],
+  "PokemonsToEvolve": [
+    "caterpie",
+    "weedle",
+    "pidgey",
+    "rattata",
+    "zubat",
+    "doduo",
+    "spearow"
+  ],
+  "PokemonsToLevelUp": null,
+  "PokemonsToIgnore": [],
+  "PokemonsTransferFilter": {},
+  "PokemonToSnipe": {
+    "Locations": [
+      {
+        "Latitude": 35.6328964,
+        "Longitude": 139.8803943
+      },
+      {
+        "Latitude": 40.712784,
+        "Longitude": -74.005941
+      },
+      {
+        "Latitude": 38.907192,
+        "Longitude": -77.036871
+      },
+      {
+        "Latitude": 37.77493,
+        "Longitude": -122.419416
+      },
+      {
+        "Latitude": 52.520007,
+        "Longitude": 13.404954
+      },
+      {
+        "Latitude": 51.507351,
+        "Longitude": -0.127758
+      }
+    ],
+    "Pokemon": [
+      "venusaur",
+      "charizard",
+      "blastoise",
+      "beedrill",
+      "raichu",
+      "sandslash",
+      "nidoking",
+      "nidoqueen",
+      "clefable",
+      "ninetales",
+      "golbat",
+      "vileplume",
+      "golduck",
+      "primeape",
+      "arcanine",
+      "poliwrath",
+      "alakazam",
+      "machamp",
+      "golem",
+      "rapidash",
+      "slowbro",
+      "farfetchd",
+      "muk",
+      "cloyster",
+      "gengar",
+      "exeggutor",
+      "marowak",
+      "hitmonchan",
+      "lickitung",
+      "rhydon",
+      "chansey",
+      "kangaskhan",
+      "starmie",
+      "mrMime",
+      "scyther",
+      "magmar",
+      "electabuzz",
+      "jynx",
+      "gyarados",
+      "lapras",
+      "ditto",
+      "vaporeon",
+      "jolteon",
+      "flareon",
+      "porygon",
+      "kabutops",
+      "aerodactyl",
+      "snorlax",
+      "articuno",
+      "zapdos",
+      "moltres",
+      "dragonite",
+      "mewtwo",
+      "mew"
+    ]
+  },
+  "PokemonToUseMasterball": [
+    "articuno",
+    "zapdos",
+    "moltres",
+    "mew",
+    "mewtwo"
+  ]
+}
