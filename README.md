@@ -1,10 +1,10 @@
 # DrZ-Configs
 DrZ's Configs to be used on Necrobot.
-Currently updated for: Necrobot v0.8.3.
-If you have issues, I left the v0.8.2 package and MassEXP 0.8.1.
+Currently updated for: Necrobot v0.8.5.
+If you have issues, I left the v0.8.3 packages, v0.8.2 package and MassEXP 0.8.1.
 
 Changelog:
--EXP rates have been pumped up even more from 0.8.0.
+-EXP rates have been pumped up even more from 0.8.0. (Little bit less than 0.8.1)
 -High Caliber Sniper Rifle has been cleaned up, should shoot and give less problems + increased base EXP rate!
 -LocationFeeder is a standalone file, for easier updates to filter out fake coords, etc. It has been added to full package too.
 (They run my own discord_channels.json config)
