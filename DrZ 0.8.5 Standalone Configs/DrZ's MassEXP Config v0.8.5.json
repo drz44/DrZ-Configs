@@ -1,7 +1,8 @@
 {/*
-										MASSEXP CONFIG BY DRZ FOR NECROBOT 0.8.3
+										MASSEXP CONFIG BY DRZ FOR NECROBOT 0.8.5
 					-THIS VERSION USES GREAT BALLS AND ULTRA BALLS- -TO DISABLE, READ BELOW- -MAY LOWER EXP RATE-
 						 -THIS VERSION IS THE SAFEST FOR BOTTING WITH THE HIGHEST EXP RATES POSSIBLE-
+									WARNING: NOT THE FASTEST OF ALL OF MY CONFIGS
 
 @Credits to everyone who has helped with providing settings, and configs.
 
@@ -78,6 +79,7 @@ Thanks to 8787, Gmacki, and others for helping out!
   "MaxBerriesToUsePerPokemon": 3,
   "CatchPokemon": true,
   "AutomaticallyLevelUpPokemon": false,
+  "OnlyUpgradeFavorites": true,
   "UseLevelUpList": true,
   "AmountOfTimesToUpgradeLoop": 5,
   "GetMinStarDustForLevelUp": 5000,
@@ -90,8 +92,9 @@ Thanks to 8787, Gmacki, and others for helping out!
   "DefaultLongitude": -73.968447,
   "WalkingSpeedInKilometerPerHour": 50.0,
   "MaxSpawnLocationOffset": 10,
-  "DelayBetweenPlayerActions": 1000,
-  "DelayBetweenPokemonCatch": 300,
+  "FastSoftBanBypass": false,
+  "DelayBetweenPlayerActions": 500,
+  "DelayBetweenPokemonCatch": 100,
   "DumpPokemonStats": true,
   "EvolveAboveIvValue": 10.0,
   "EvolveAllPokemonAboveIv": true,
@@ -109,9 +112,13 @@ Thanks to 8787, Gmacki, and others for helping out!
   "GpxFile": "GPXPath.GPX",
   "VerboseRecycling": true,
   "RecycleInventoryAtUsagePercentage": 90.0,
+  "RandomizeRecycle": false,
+  "RandomRecycleValue": 5,
+  "DelayBetweenRecycleActions": false,
   "UseEggIncubators": true,
+  "minEggKmForLimitedIncubators": 2,
   "UseLuckyEggConstantly": false,
-  "UseLuckyEggsMinPokemonAmount": 30,
+  "UseLuckyEggsMinPokemonAmount": 10,
   "UseLuckyEggsWhileEvolving": true,
   "UseIncenseConstantly": true,
   "UseBerriesMinCp": 0,
@@ -121,9 +128,11 @@ Thanks to 8787, Gmacki, and others for helping out!
   "UseSnipeLocationServer": false,
   "SnipeLocationServer": "localhost",
   "SnipeLocationServerPort": 16969,
-  "GetSniperInfoFromPokezz": true,
-  "GetOnlyVerifiedSniperInfoFromPokezz": true,
+  "GetSniperInfoFromPokezz": false,
+  "GetOnlyVerifiedSniperInfoFromPokezz": false,
   "GetSniperInfoFromPokeSnipers": false,
+  "GetSniperInfoFromPokeWatchers": false,
+  "SnipeWithSkiplagged": false,
   "MinPokeballsToSnipe": 50,
   "MinPokeballsWhileSnipe": 0,
   "MinDelayBetweenSnipes": 6000,
@@ -137,8 +146,6 @@ Thanks to 8787, Gmacki, and others for helping out!
   "RenameTemplate": "{1}_{0}",
   "MaxPokeballsPerPokemon": 6,
   "MaxTravelDistanceInMeters": 3000,
-  "RandomizeRecycle": false,
-  "RandomRecycleValue": 5,
   "TotalAmountOfPokeballsToKeep": 120,
   "TotalAmountOfPotionsToKeep": 80,
   "TotalAmountOfRevivesToKeep": 60,

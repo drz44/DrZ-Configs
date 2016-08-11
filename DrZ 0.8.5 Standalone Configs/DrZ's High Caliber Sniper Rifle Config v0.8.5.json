@@ -1,5 +1,5 @@
 {/*
-						                     DRZ'S HIGH CALIBER SNIPER 0.8.3
+						                     DRZ'S HIGH CALIBER SNIPER 0.8.5
 											 -TO USE WITH POGOLOCATIONFEEDER-
 						                              -READ BELOW-
 
@@ -47,8 +47,8 @@ Want to support buy buying one of my accounts? http://pogomart.xyz
   "WalkingSpeedInKilometerPerHour": 50.0,
   "MaxSpawnLocationOffset": 10,
   "FastSoftBanBypass": false,
-  "DelayBetweenPlayerActions": 1000,
-  "DelayBetweenPokemonCatch": 300,
+  "DelayBetweenPlayerActions": 500,
+  "DelayBetweenPokemonCatch": 100,
   "DumpPokemonStats": true,
   "EvolveAboveIvValue": 10.0,
   "EvolveAllPokemonAboveIv": false,
@@ -70,8 +70,9 @@ Want to support buy buying one of my accounts? http://pogomart.xyz
   "RandomRecycleValue": 5,
   "DelayBetweenRecycleActions": false,
   "UseEggIncubators": true,
+  "minEggKmForLimitedIncubators": 2,
   "UseLuckyEggConstantly": false,
-  "UseLuckyEggsMinPokemonAmount": 30,
+  "UseLuckyEggsMinPokemonAmount": 10,
   "UseLuckyEggsWhileEvolving": true,
   "UseIncenseConstantly": false,
   "UseBerriesMinCp": 1000,
@@ -81,11 +82,11 @@ Want to support buy buying one of my accounts? http://pogomart.xyz
   "UseSnipeLocationServer": true,
   "SnipeLocationServer": "localhost",
   "SnipeLocationServerPort": 16969,
-  "GetSniperInfoFromPokezz": true,
-  "GetOnlyVerifiedSniperInfoFromPokezz": true,
-  "GetSniperInfoFromPokeSnipers": true,
-  "GetSniperInfoFromPokeWatchers": true,
-  "SnipeWithSkiplagged": true,
+  "GetSniperInfoFromPokezz": false,   /*TIP: CHANGE TO TRUE WHEN POKEZZ IS WORKING*/
+  "GetOnlyVerifiedSniperInfoFromPokezz": false,   /*TIP: CHANGE TO TRUE WHEN POKEZZ IS WORKING*/
+  "GetSniperInfoFromPokeSnipers": true,   /*TIP: CHANGE TO TRUE WHEN POKESNIPERS IS WORKING*/
+  "GetSniperInfoFromPokeWatchers": false,   /*TIP: CHANGE TO TRUE WHEN POKEWATCHERS IS WORKING*/
+  "SnipeWithSkiplagged": true,   /*TIP: CHANGE TO TRUE WHEN SKIPLAGGED IS WORKING*/
   "MinPokeballsToSnipe": 50,
   "MinPokeballsWhileSnipe": 0,
   "MinDelayBetweenSnipes": 6000,
